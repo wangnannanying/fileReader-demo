@@ -1,4 +1,4 @@
-# Java读取properties配置文件的几种方式
+# Java读取配置文件
 
 ## 读取配置文件.properties
 
