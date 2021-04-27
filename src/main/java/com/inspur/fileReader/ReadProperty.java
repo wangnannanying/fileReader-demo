@@ -26,6 +26,7 @@ public class ReadProperty {
 
     /**
      * 方法一，基于InputStream读取配置文件
+     * 这种方法通过类的路径来定位properties文件资源的路径，然后通过InputStreamReader读取流，最后通过java.util.Properties类的load()方法来加载数据
      * @param propertyName
      */
     private static Map<String, Object> getProfileByInputStream(String propertyName) {
@@ -57,7 +58,7 @@ public class ReadProperty {
 
 
     /**
-     * 方法二，通过Spring中的PropertiesLoaderUtils工具类进行获取
+     * 方法二，通过Spring中的PropertiesLoaderUtils工具类进行获取,当然需要导入spring核心包
      * @Title: getProfileByPropertiesLoaderUtils
      * @Description: Spring 提供的 PropertiesLoaderUtils 允许您直接通过基于类路径的文件地址加载属性资源
      * 最大的好处就是：实时加载配置文件，修改后立即生效，不必重启
@@ -107,7 +108,7 @@ public class ReadProperty {
         while(allKey.hasMoreElements()) {
             try {
                 String key = allKey.nextElement();
-                String value = (String) resourceBundle.getString(key);
+                String value = resourceBundle.getString(key);
                 //将文件内容存入map
                 profileMap.put(key, value);
                 System.out.println( new String(value.getBytes("iso-8859-1"), "utf8"));

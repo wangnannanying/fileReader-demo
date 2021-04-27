@@ -49,9 +49,11 @@ public class ReadJson {
                 System.out.println(fileName + " file not exist!");
             }
         } catch (Exception e) {
-            System.out.println("readJsonFile error due to {}" + e.getMessage());
+            System.out.println("ReadJsonFile error due to {}" + e.getMessage());
+        } finally {
+            return "";
         }
-        return "";
+
     }
 
 }

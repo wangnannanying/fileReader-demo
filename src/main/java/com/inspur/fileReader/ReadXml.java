@@ -22,7 +22,7 @@ public class ReadXml {
     }
 
     private static void parserXml(String fileName) {
-        URL url = ReadJson.class.getResource(fileName);
+        URL url = ReadXml.class.getResource(fileName);
         String path = url.getPath();
         try{
             // ClassLoader的getResource方法使用了utf-8对路径信息进行了编码，当路径中存在中文和空格时，他会对这些字符进行转换，这样，得到的往往不是我们想要的真实路径，

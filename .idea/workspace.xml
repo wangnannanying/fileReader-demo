@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15dfd617-dd4a-4808-a78d-e3c7619b0918" name="Default Changelist" comment="" />
+    <list default="true" id="15dfd617-dd4a-4808-a78d-e3c7619b0918" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inspur/fileReader/ReadJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inspur/fileReader/ReadJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inspur/fileReader/ReadProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inspur/fileReader/ReadProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inspur/fileReader/ReadXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inspur/fileReader/ReadXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspur/fileReader/ReadJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inspur/fileReader/ReadJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspur/fileReader/ReadProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inspur/fileReader/ReadProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspur/fileReader/ReadXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inspur/fileReader/ReadXml.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +27,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -33,9 +49,10 @@
   </component>
   <component name="ProjectId" id="1ne6GGaXlFugrNG0yAkz7RON6HJ" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -173,9 +190,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.ReadProperty" />
-      <item itemvalue="Tomcat Server.fileReader-demo" />
       <item itemvalue="Application.ReadJson" />
       <item itemvalue="Application.ReadXml" />
+      <item itemvalue="Tomcat Server.fileReader-demo" />
     </list>
     <recent_temporary>
       <list>
@@ -197,10 +214,31 @@
       <updated>1611738111358</updated>
       <workItem from="1611738115077" duration="2563000" />
       <workItem from="1612147988840" duration="25700000" />
+      <workItem from="1612257127184" duration="6000" />
+      <workItem from="1612259144265" duration="100000" />
+      <workItem from="1619487648508" duration="3490000" />
+      <workItem from="1619491170163" duration="272000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix:修改一些错误并添加一些注释." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:修改一些错误并添加一些注释." />
   </component>
 </project>
